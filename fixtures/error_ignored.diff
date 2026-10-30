@@ -1,0 +1,8 @@
+@@ -18,7 +18,7 @@ func (s *Service) Create(ctx context.Context, input CreateInput) error {
+     order := Order{ID: input.ID}
+     if err := s.repository.Save(ctx, order); err != nil {
+-        return err
++        _ = err
+     }
+     return nil
+ }

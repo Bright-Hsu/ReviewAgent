@@ -1,0 +1,15 @@
+{
+  "name": "animated-five-bar-chart",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "render": "remotion render src/index.jsx FiveBarChart out/five-bar-chart.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.242"
+  }
+}
